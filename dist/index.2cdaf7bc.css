@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 700px;
+  height: 600px;
+  background-color: #fff;
+  border: 1px solid silver;
+  border-radius: 10px;
+  margin: 60px auto 0;
+  padding: 20px;
+}
+
+.main-box {
+  width: 80%;
+  background-color: #0000;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+input[type="text"] {
+  width: 75%;
+  height: 30px;
+  background: none;
+  border-color: #ccc;
+  border-radius: 6px;
+  margin: 20px auto;
+}
+
+input[type="button"] {
+  width: 70px;
+  height: 30px;
+  background-color: #98f398;
+  border-color: #0fb222;
+  border-radius: 8px;
+  font-size: .7rem;
+}
+
+.add-to-do {
+  width: 70%;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 20px;
+  padding: 0 5px;
+  line-height: 30px;
+  display: flex;
+}
+
+#app {
+  background-color: #0000;
+  margin-top: 35px;
+}
+
+#icon {
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+#checked {
+  background-color: #56c656;
+  border-radius: 6px;
+  margin-right: 5px;
+}
+
+#del {
+  background-color: #dc143c;
+  border-radius: 6px;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
